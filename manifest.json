@@ -6,19 +6,19 @@
     "content_scripts": [
         {
             "matches": [
-                "*://www.amazon.co.uk/*",
-                "*://www.amazon.fr/*",
-                "*://www.amazon.de/*",
-                "*://www.amazon.it/*",
-                "*://www.amazon.es/*",
-                "*://www.amazon.co.jp/*",
-                "*://www.amazon.ca/*",
-                "*://www.amazon.cn/*",
-                "*://www.amazon.in/*",
-                "*://www.amazon.com.au/*",
-                "*://www.amazon.com.br/*",
-                "*://www.amazon.com.mx/*",
-                "*://www.amazon.com/*"
+                "*://www.amazon.co.uk/gp/yourstore*",
+                "*://www.amazon.fr/gp/yourstore*",
+                "*://www.amazon.de/gp/yourstore*",
+                "*://www.amazon.it/gp/yourstore*",
+                "*://www.amazon.es/gp/yourstore*",
+                "*://www.amazon.co.jp/gp/yourstore*",
+                "*://www.amazon.ca/gp/yourstore*",
+                "*://www.amazon.cn/gp/yourstore*",
+                "*://www.amazon.in/gp/yourstore*",
+                "*://www.amazon.com.au/gp/yourstore*",
+                "*://www.amazon.com.br/gp/yourstore*",
+                "*://www.amazon.com.mx/gp/yourstore*",
+                "*://www.amazon.com/gp/yourstore*"
             ],
             "css": [],
             "js": ["jquery-1.11.0.min.js", "anti-amazon-recommendation.js"]
