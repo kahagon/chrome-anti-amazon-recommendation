@@ -1,0 +1,27 @@
+{
+    "manifest_version":2,
+    "name": "anti amazon recommendation",
+    "version": "1.0",
+    "description": "remove all items which is recommended.",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://www.amazon.co.uk/*",
+                "*://www.amazon.fr/*",
+                "*://www.amazon.de/*",
+                "*://www.amazon.it/*",
+                "*://www.amazon.es/*",
+                "*://www.amazon.co.jp/*",
+                "*://www.amazon.ca/*",
+                "*://www.amazon.cn/*",
+                "*://www.amazon.in/*",
+                "*://www.amazon.com.au/*",
+                "*://www.amazon.com.br/*",
+                "*://www.amazon.com.mx/*",
+                "*://www.amazon.com/*"
+            ],
+            "css": [],
+            "js": ["jquery-1.11.0.min.js", "anti-amazon-recommendation.js"]
+        }
+    ]
+}
